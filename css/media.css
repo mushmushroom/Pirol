@@ -1,0 +1,184 @@
+
+@media(max-width:1170px) {
+	.project {
+		display:block;
+	}
+
+	.project__inner {
+		max-width:100%;
+		padding:30px 40px;
+	}
+
+	.project__image {
+		margin:auto;
+		max-width:60%;
+		width:100%;
+	}
+
+	.contacts__inner {
+		display: block;
+	}
+
+	div.contact__info {
+		max-width:90%;
+		width:100%;
+		margin:auto;
+		padding-right:0;
+	}
+
+	div.contacts__form {
+		max-width:90%;
+		margin:auto;
+	}
+
+	.contacts__form form input[type="email"],
+	.contacts__form form input[name="name"] {
+		max-width:100%;
+		float:none;
+		margin-top:30px;
+	}
+
+	.contacts__form form input[name="title"], .contacts__form form textarea {
+		max-width:100%;
+	}
+	.statistics {
+		padding:20px 0;
+	}
+
+	.stat__items {
+		display: block;
+	}
+
+	.stat__item {
+		margin:40px auto 40px;
+	}
+}
+
+@media(max-width:1060px) {
+
+	.about {
+		display:block;
+
+	}
+
+	.banner {
+		background-position: center;
+	}
+
+	.about__image {
+		display: none;
+	}
+
+	.about__inner {
+		text-align:center;
+		padding:30px 0;
+	}
+
+	.about__text {
+		max-width:100%;
+	}
+}
+
+
+@media(max-width:940px) {
+
+	.footer__inner {
+		display:block;
+		text-align:center;
+		padding:50px 0 30;
+
+	}
+
+	div[class^="footer__col"] {
+		margin:auto;	
+		margin-bottom:50px;	
+	}
+
+	div.footer__col4 {
+		margin-bottom:0px;
+	}
+}
+
+
+@media(max-width:768px) {
+
+
+	.gallery__inner {
+		grid-template-columns: 1fr 1fr;
+	}
+
+
+	.menu {
+		display: none;
+	}
+
+	.pe-7s-menu {
+		font-size:40px;
+		color:#000;
+	}
+
+	header nav {
+		position:relative;
+	}
+
+
+	nav ul.menu {
+		max-width:180px;
+		display:none;
+		position:absolute;	
+		right:20px;
+		margin-top:10px;
+		z-index:50;
+		background-color:#141414;
+		padding:10px 30px;
+	}
+	nav ul.menu li {
+		display: block;
+		text-align:center;
+		padding-top:10px;
+		padding-bottom:10px;
+
+	}
+
+	nav ul.menu a {
+		color:#fff;
+		display: block;
+	}
+
+	nav .menu li + li{
+		padding-left:0px;
+	}
+}
+
+
+@media(max-width:500px) {
+	.project__image {
+		max-width:90%;
+		width:100%;
+	}
+
+	.project__controls-right p,
+	.project__controls-left p {
+		display: none;
+	}
+}
+
+
+@media(max-width:430px) {
+	.project__title {
+		line-height:40px;
+	}
+}
+
+
+
+
+@media(min-width:768px) {
+	.pe-7s-menu {
+		display: none;
+	}
+
+	.menu {
+		display: block !important;
+	}
+}
